@@ -5,6 +5,7 @@
 #include <sstream>
 
 class double_es {
+
     /*******************
      * Storage Vectors *
      *******************/
@@ -19,14 +20,19 @@ class double_es {
      ************************/
     double _alpha;
     double _beta;
-    /*********
-     * Other *
-     *********/
+    /********************
+     * Evaluation Stats *
+     *******************/
     double _mae;
     double _mse;
     double _mape;
+    /***************
+     * Debug Text  *
+     ***************/
     std::stringstream _debug;
+
 public:
+
     double_es(std::vector<double>&, const double&, const double&);
     void update(const double&, const double&, const double&);
     void seq_update(const double&, const double&);
@@ -51,6 +57,7 @@ public:
     std::vector<double>& get_data();
     std::vector<double>& get_newf();
     std::stringstream& get_debug();
+
 };
 
 #endif // DES_H
