@@ -11,6 +11,8 @@ greaterThan(QT_MAJOR_VERSION, 5)
 TARGET = ExpSmoother
 TEMPLATE = app
 
+INCLUDEPATH = src/include
+
 SOURCES += src/main.cpp \
     src/maindialog.cpp \
     src/functions.cpp \
