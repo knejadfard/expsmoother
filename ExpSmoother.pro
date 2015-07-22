@@ -11,18 +11,18 @@ greaterThan(QT_MAJOR_VERSION, 5)
 TARGET = ExpSmoother
 TEMPLATE = app
 
-SOURCES += main.cpp \
-    maindialog.cpp \
-    functions.cpp \
-    des.cpp \
-    output.cpp \
-    ses.cpp \
-    tes.cpp
+SOURCES += src/main.cpp \
+    src/maindialog.cpp \
+    src/functions.cpp \
+    src/des.cpp \
+    src/output.cpp \
+    src/ses.cpp \
+    src/tes.cpp
 
 HEADERS  += \
-    maindialog.h \
-    functions.h \
-    des.h \
-    output.h \
-    ses.h \
-    tes.h
+    src/include/maindialog.h \
+    src/include/functions.h \
+    src/include/des.h \
+    src/include/output.h \
+    src/include/ses.h \
+    src/include/tes.h
