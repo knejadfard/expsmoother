@@ -1,8 +1,5 @@
 #include "ses.h"
 
-single_es::single_es() {
-
-}
 
 void single_es::update(const double& d, const double& alpha) {
     _f.push_back(alpha*d + (1-alpha)*_f.back());

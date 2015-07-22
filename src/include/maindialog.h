@@ -1,18 +1,18 @@
 #ifndef MAINDIALOG_H
 #define MAINDIALOG_H
 
-#include <QtWidgets/QMainWindow>
-#include <QtWidgets/QLabel>
-#include <QtWidgets/QSpinBox>
-#include <QtWidgets/QDoubleSpinBox>
-#include <QtWidgets/QVBoxLayout>
-#include <QtWidgets/QHBoxLayout>
-#include <QtWidgets/QCheckBox>
-#include <QtWidgets/QTableWidget>
-#include <QtWidgets/QHeaderView>
+#include <QMainWindow>
+#include <QLabel>
+#include <QSpinBox>
+#include <QDoubleSpinBox>
+#include <QVBoxLayout>
+#include <QHBoxLayout>
+#include <QCheckBox>
+#include <QTableWidget>
+#include <QHeaderView>
 #include <QString>
-#include <QtWidgets/QPlainTextEdit>
-#include <QtWidgets/QPushButton>
+#include <QPlainTextEdit>
+#include <QPushButton>
 
 class MainDialog : public QMainWindow
 {
