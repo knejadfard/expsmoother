@@ -13,7 +13,8 @@ TEMPLATE = app
 
 INCLUDEPATH = src/include
 
-SOURCES += src/main.cpp \
+SOURCES += \
+    src/main.cpp \
     src/maindialog.cpp \
     src/functions.cpp \
     src/des.cpp \
