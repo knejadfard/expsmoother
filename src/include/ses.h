@@ -15,11 +15,15 @@ public:
 
     single_es() {}
 
+
+
     void seq_update(std::vector<double>&, const double&);
-    //double forecast(const unsigned int&);
+
+    /*************
+     * Accessors *
+     *************/
     std::vector<double>& forecast_vector_ref();
     std::vector<double>& error_vector_ref();
-    //int now() const; //return the current period number
     double get_alpha() const;
 
 };
